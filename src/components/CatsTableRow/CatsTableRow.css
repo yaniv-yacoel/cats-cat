@@ -1,0 +1,38 @@
+.rowWrapper {
+    background-color: white;
+    padding: 15px 0 15px 20px;
+    color: #444444;
+}
+
+.rowWrapper.odd {
+    background-color: bisque;
+    padding: 15px 0 15px 20px;
+}
+
+.rowWrapper:hover {
+    background-color: #dddddd;
+}
+
+[class$='Cell'] {
+    display: inline-block;
+}
+
+.nameCell {
+    width: 15%;
+}
+
+.temperamentCell {
+    width: 55%;
+}
+
+.originCell {
+    width: 15%;
+}
+
+.life_spanCell {
+    width: 15%;
+}
+
+.life_spanCell::after {
+    content: " Years";
+}

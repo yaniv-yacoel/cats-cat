@@ -1,0 +1,22 @@
+.headersWrapper {
+    background-color: #aaaaaa;
+    padding: 15px 0 15px 20px;
+}
+[class$='Cell'] {
+    display: inline-block;
+}
+
+.NameCell {
+    width: 15%;
+}
+.TemperamentCell {
+    width: 55%;
+}
+
+.OriginCell {
+    width: 15%;
+}
+
+.Life_spanCell {
+    width: 15%;
+}

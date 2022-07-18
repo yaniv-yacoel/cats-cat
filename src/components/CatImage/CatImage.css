@@ -1,0 +1,8 @@
+.imageWrapper {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+}
+img {
+    height: 400px;
+}
